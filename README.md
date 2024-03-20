@@ -15,3 +15,7 @@ CREATE TABLE history(
 ```
 
 The DBMS used does shouldn't matter, but it needs to be set up in the application.properties file. I used a MySQL Docker container with port 3306 exposed, which is not included here. 
+
+The backend application is a Java Spring Boot application, so just run the App class to start it up. 
+
+The frontend can be run using `npm run dev`
